@@ -4,30 +4,26 @@
 
 ## Stack
 
-- Next.js App Router
-- Tailwind CSS
-- GSAP
+- Next.js 16.2.2 (App Router / TypeScript)
+- Tailwind CSS 4.2.2
+- GSAP 3.14.2 / @gsap/react 3.14.2
+- ESLint + Prettier
+- Inter (next/font)
 
-## Routes prepared
+## Included
 
-- `/`
-- `/services/brand-film`
-- `/services/music-video`
-- `/services/commercial`
-- `/services/documentary`
-- `/services/creative-direction`
-- `/news`
-- `/contact`
-
-## Notes
-
-- フルスクリーンシーン切替を想定したトップページの土台を作成
-- GSAP を導入し、Hero セクションで初期アニメーションのベースを追加
-- 今後の実装拡張に向けて App Router 配下の骨格を整理
+- TypeScript strict mode
+- path alias `@/`
+- Tailwind design tokens via CSS variables
+- GSAP + ScrollTrigger registration scaffold
+- Inter font setup
+- ESLint / Prettier config
 
 ## Setup
 
 ```bash
 npm install
 npm run dev
+npm run build
+npm run lint
 ```
