@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+:root {
+  --color-bg: #0a0a0a;
+  --color-card: #141414;
+  --color-border: #2a2a2a;
+  --color-text-1: #f2f2f2;
+  --color-text-2: #6b6b6b;
+  --color-accent: #5e6ad2;
+  --color-gradient-from: #0066ff;
+  --color-gradient-to: #8833ff;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text-1);
+}
+
+* {
+  box-sizing: border-box;
+}
